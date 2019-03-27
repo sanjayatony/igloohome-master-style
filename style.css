@@ -1,0 +1,93 @@
+/* COLORS*/
+/* FONTS */
+@import url("https://use.typekit.net/ltx3edn.css");
+body {
+  font-family: "sofia-pro", Century Gothic, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+h3, h4, h5 {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.enterprise h1, .enterprise h2, .enterprise h3, .enterprise h4, .enterprise h5 {
+  font-family: Georgia, serif;
+}
+.enterprise h1, .enterprise h2, .enterprise h3 {
+  line-height: 1.2;
+}
+.enterprise h4, .enterprise h5 {
+  line-height: 1.5;
+}
+.enterprise h1 {
+  font-size: 64px;
+}
+.enterprise h5 {
+  font-size: 20px;
+}
+
+a.btn, .btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #fff;
+}
+a.btn.btn-primary, .btn.btn-primary {
+  background: #000;
+}
+a.btn.btn-secondary, .btn.btn-secondary {
+  background: #159281;
+}
+a.btn.btn-small, .btn.btn-small {
+  padding: 24px;
+}
+a.btn.btn-medium, .btn.btn-medium {
+  padding: 48px;
+}
+a.btn:hover, .btn:hover {
+  background: #00DEAD;
+}
+
+input[type=text],
+input[type=search],
+input[type=email] {
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+/*# sourceMappingURL=style.css.map */
