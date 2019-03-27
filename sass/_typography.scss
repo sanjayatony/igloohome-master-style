@@ -1,0 +1,58 @@
+body{
+	font-family: $primary-font;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: 700;
+}
+h1{
+	line-height: 1;
+}
+h2{
+	line-height: 1.2;
+}
+h3, h4, h5{
+	line-height: 1.5;
+}
+h1{
+	font-size: 80px;
+}
+
+h2{
+	font-size: 48px;
+}
+
+h3{
+	font-size: 32px;
+}
+
+h4{
+	font-size: 24px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+.enterprise{
+	h1,h2,h3,h4,h5{
+		font-family: $enterprise-font;
+	}
+	h1,h2,h3{
+		line-height: 1.2;
+	}
+
+	h4, h5{
+		line-height: 1.5;
+	}
+
+	h1{
+		font-size: 64px;
+	}
+	h5{
+		font-size: 20px;
+	}
+}
