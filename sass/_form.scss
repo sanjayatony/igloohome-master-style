@@ -1,0 +1,30 @@
+a.btn, .btn{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: #fff;
+
+	&.btn-primary{
+		background: #000;
+	}
+	&.btn-secondary{
+		background: #159281;
+	}
+	&.btn-small{
+		padding: 24px;
+	}
+	&.btn-medium{
+		padding: 48px;
+	}
+	&:hover{
+		background: #00DEAD;
+	}
+}
+
+input[type="text"],
+input[type="search"],
+input[type="email"]{
+	padding-right: 48px;
+	padding-left: 48px;
+}
