@@ -19,7 +19,7 @@ Add `.row .fullwidth`. The container will be 100%.
 Add `.row .collapse`. It will remove all the padding between the grids.
 
 ### Typography
-The font will be `Sofia Pro`. If you need a `Georgia` (Enterprise) just add `.enterprise' class to an element. Example `<h1 class="enterprise">Heading 1</h1>`.
+The font will be `Sofia Pro`. If you need a `Georgia` (Enterprise) just add `.enterprise' class to an element.
 
 ### Form
 #### Button
