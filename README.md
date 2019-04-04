@@ -18,6 +18,9 @@ Add `.row .fullwidth`. The container will be 100%.
 #### Grid with no space
 Add `.row .collapse`. It will remove all the padding between the grids.
 
+### Nav
+Use `header` in `igloo2019` directory. TO use dark navigation add `dark-nav` in body.
+
 ### Typography
 The font will be `Sofia Pro`. If you need a `Georgia` (Enterprise) just add `.enterprise' class to an element.
 
