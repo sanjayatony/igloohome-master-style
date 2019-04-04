@@ -30,6 +30,13 @@ Add class `.btn` to any anchor. Add another class, `.btn-small` for small size, 
 
 ### Utilities
 `.spacer` will add 48px space.
+`.p1` will add padding 8px.
+`.p2` will add padding 16px.
+`.px1` will add horizontal padding 8px.
+`.px2` will add horizontal padding 16px.
+`.py1` will add vertical adding 8px.
+`.py2` will add vertical padding 16px.
+
 
 
 
