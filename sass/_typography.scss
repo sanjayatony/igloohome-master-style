@@ -3,10 +3,14 @@ body{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
+	letter-spacing: -0.5px;
 }
 
 h1,h2,h3,h4,h5{
 	font-weight: 700;
+	letter-spacing: -1px;
+	margin-top: 8px;
+	margin-bottom:8px;
 	&.enterprise{
 		font-family: $enterprise-font;
 	}
