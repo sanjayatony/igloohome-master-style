@@ -47,6 +47,12 @@ Add class `.btn` to any anchor. Add another class, `.btn-small` for small size, 
 
 `.py2` will add vertical padding 16px.
 
+`.py3` will add vertical adding 32px.
+
+`.py4` will add vertical padding 64px.
+
+`.v-center` will make element vertical center. The parent position should be `absolute`.
+
 
 
 
