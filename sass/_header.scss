@@ -9,7 +9,7 @@
   &.sticky-header {
     position: fixed;
     width: 100% !important;
-    background: #fff;
+    background: transparent;
     z-index:100;
     transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
@@ -66,6 +66,14 @@ img.logo-dark {
   display: none;
 }
 
+.dark-nav{
+  .site-header{
+    background: #000;
+    &.sticky-header{
+      background: #000;
+    }
+  }
+}
 
 .menu-primary{
   .hs-menu-wrapper > ul{
@@ -73,24 +81,26 @@ img.logo-dark {
     padding-right: 5px;
 
     > li{
-      &.hs-item-has-children > a:after {
-        content: "\f107";
-        font-family: FontAwesome;
-        font-size: 14px;
-        position: relative;
-        margin-left: 7px;
-        color: inherit;
-      }      
+      &.hs-item-has-children {
+          >a::after {
+            font-family: $icon-font;
+            content: "\f107";
+            font-size: 14px;
+            position: relative;
+            margin-left: 7px;
+            color: inherit;
+          }  
+      }    
 
       a{
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 700;
         line-height: 60px;
         min-height: 60px;
         padding: 0 10px;
         position: relative;
         text-decoration: none;
-        color:rgb(34, 34, 34);
+        color: #fff;
         letter-spacing: -0.03em;
 
         min-height: 50px;
@@ -104,7 +114,7 @@ img.logo-dark {
 
       &:last-child a{
         span{
-          background-color: #f26c4f;
+          background-color: $link-color;
           color: #fff;
           margin-top: 5px;
           line-height: 3.1;
@@ -113,12 +123,6 @@ img.logo-dark {
           text-align: center;
           min-height: 40px;
           display: inline-block;
-        }
-
-        &:hover{
-          span{
-            background-color: #f37a60;
-          }
         }
       }
 
@@ -186,7 +190,6 @@ img.logo-dark {
 .site-header.sticky-header{
   z-index: 1001;
 }
-
 
 
 @media (max-width: 767px){
@@ -284,9 +287,9 @@ img.logo-dark {
     padding: 0 25px;
     font-weight: normal;
 
-    &:after {
-      content: "\f107";
+    &::after {
       font-family: "FontAwesome";
+      content: "\f107";
       line-height: 32px;
       position: absolute;
       top: 5px;
