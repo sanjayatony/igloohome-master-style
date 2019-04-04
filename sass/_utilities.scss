@@ -33,7 +33,9 @@
 .spacer{
   height: 48px;
 }
-
+.position-relative{
+  position: relative!important;
+}
 .v-center{
   position: absolute;
   top: 50%;
