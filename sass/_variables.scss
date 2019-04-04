@@ -18,6 +18,7 @@ $break-small:"screen and (max-width: 481px)";
 $break-medium:"screen and (max-width: 769px)";
 $break-x-large:"screen and (min-width: 1600px)";
 
-/* how to use resp */
-/* @media #{$break-small}{} */
+$small: 480px;
+$medium: 767px;
+$x-large: 1600px;
 
