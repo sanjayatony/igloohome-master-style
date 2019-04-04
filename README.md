@@ -18,23 +18,33 @@ Add `.row .fullwidth`. The container will be 100%.
 #### Grid with no space
 Add `.row .collapse`. It will remove all the padding between the grids.
 
+
 ### Nav
 Use `header` in `igloo2019` directory. TO use dark navigation add `dark-nav` in body.
 
+
 ### Typography
 The font will be `Sofia Pro`. If you need a `Georgia` (Enterprise) just add `.enterprise' class to an element.
+
 
 ### Form
 #### Button
 Add class `.btn` to any anchor. Add another class, `.btn-small` for small size, `btn-medium` for medium size. Add `.btn-primary` for black background or `.btn-secondary` for background green.
 
+
 ### Utilities
 `.spacer` will add 48px space.
+
 `.p1` will add padding 8px.
+
 `.p2` will add padding 16px.
+
 `.px1` will add horizontal padding 8px.
+
 `.px2` will add horizontal padding 16px.
+
 `.py1` will add vertical adding 8px.
+
 `.py2` will add vertical padding 16px.
 
 
