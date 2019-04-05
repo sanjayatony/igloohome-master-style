@@ -4,6 +4,12 @@
 .p2{
   padding: 16px;
 }
+.p3{
+  padding: 24px;
+}
+.p4{
+  padding: 48px;
+}
 .px1{
   padding-right: 8px;
   padding-left: 8px;
@@ -30,10 +36,26 @@
   padding-bottom: 48px;
 }
 
+.py5{
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.py6{
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
 .spacer{
   height: 48px;
 }
-.position-relative{
+.spacer2{
+  height: 96px;
+}
+.spacer3{
+  height: 144px;
+}
+.p-relative{
   position: relative!important;
 }
 .v-center{
