@@ -14,6 +14,11 @@ h1,h2,h3,h4,h5{
 	&.enterprise{
 		font-family: $enterprise-font;
 	}
+	&.underlined{
+		border-bottom: 8px solid;
+    padding-bottom: 16px;
+    display: inline-block;
+	}
 }
 h1{
 	line-height: 1;
@@ -125,7 +130,12 @@ hr {
   height: 1px;
   border: none;
 }
-
+.caption{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
 /* Highlighted Text */
 ::-moz-selection {
   color: #fff;
@@ -141,4 +151,29 @@ hr {
 /* Corrects width issues in table elements created via the wysiwyg editor */
 table tr td img {
 	max-width: initial;
+}
+table.specs{
+	width: 100%;
+	margin-bottom: 48px;
+
+	th{
+		text-align: left;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	th,td{
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	td{
+		font-weight: 300;
+		width: 60%;
+	}
+	td:first-child{
+		width: 40%;
+	}
+
 }
