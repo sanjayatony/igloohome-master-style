@@ -18,17 +18,17 @@ body{
   text-align: right;
 }
 .medium-text-center{
-  @media #{$break-medium}{
+  @include md{
     text-align: center!important;
   }
 }
 .medium-text-left{
-  @media #{$break-medium}{
+  @include md{
     text-align: left!important;
   }
 }
 .medium-text-right{
-  @media #{$break-medium}{
+  @include md{
     text-align: right!important;
   }
 }
