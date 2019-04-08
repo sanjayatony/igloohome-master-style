@@ -20,7 +20,7 @@ Add `.row .collapse`. It will remove all the padding between the grids.
 
 
 ### Nav
-Use `header` in `igloo2019` directory. TO use dark navigation add `dark-nav` in body.
+Use `header` in `igloo2019` directory. To use dark navigation add `dark-nav` in body.
 
 
 ### Typography
@@ -39,9 +39,17 @@ Add class `.btn` to any anchor. Add another class, `.btn-small` for small size, 
 
 `.p2` will add padding 16px.
 
+`.p3` will add padding 24px.
+
+`.p4` will add padding 48px.
+
 `.px1` will add horizontal padding 8px.
 
 `.px2` will add horizontal padding 16px.
+
+`.px3` will add horizontal padding 24px.
+
+`.px4` will add horizontal padding 48px.
 
 `.py1` will add vertical adding 8px.
 
@@ -50,6 +58,18 @@ Add class `.btn` to any anchor. Add another class, `.btn-small` for small size, 
 `.py3` will add vertical adding 24px.
 
 `.py4` will add vertical padding 48px.
+
+`.py5` will add vertical adding 96px.
+
+`.py6` will add vertical padding 144px.
+
+`.spacer` vertical space 48px.
+
+`.spacer2` vertical space 96px.
+
+`.spacer3` vertical space 144px.
+
+`.p-relative` will give position relative
 
 `.v-center` will make element vertical center. The parent position should be `absolute`.
 
