@@ -44,16 +44,33 @@
 .py6{
   padding-top: 144px;
   padding-bottom: 144px;
+
+  @include md{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 }
 
 .spacer{
   height: 48px;
+
+  @include md{
+    height: 16px;
+  }
 }
 .spacer2{
   height: 96px;
+
+  @include md{
+    height: 48px;
+  }
 }
 .spacer3{
   height: 144px;
+
+  @include md{
+    height: 96px;
+  }
 }
 .p-relative{
   position: relative!important;
@@ -61,6 +78,10 @@
 .v-center{
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.h-center{
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
