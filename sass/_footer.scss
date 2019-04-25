@@ -2,6 +2,9 @@
   background: #1E1E1E;
   color: #fff;
   
+  h4{
+    color: #fff;
+  }
   a{
     color: #fff;
   }
@@ -56,5 +59,19 @@
 
   .caption{
     color: #444;
+  }
+}
+
+.mc-field-group{
+  .span7{
+    @include lg{
+      width: 100%;
+    }
+  }
+  .span5{
+    @include lg{
+      width: 100%;
+      margin-left:0;
+    }
   }
 }
