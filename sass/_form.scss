@@ -2,12 +2,17 @@ a.btn, .btn{
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.5;
-	letter-spacing: 0px;
+	letter-spacing: 1px;
 	color: #fff;
 	border-radius: 999em;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
+
+	@include sm{
+		display: block;
+		margin-bottom: 16px;
+	}
 
 	&.btn-primary{
 		background: #000;
@@ -29,13 +34,34 @@ a.btn, .btn{
 
 input[type="text"],
 input[type="search"],
-input[type="email"]{
+input[type="email"],
+.igloo-select{
 	font-family: $primary-font;
-	padding: 15px 48px;
+	padding: 10px 48px;
 	border-radius: 50px;
 	color: #ccc;
 	font-size: 20px;
-	border: 1px solid #000;
+	border: 1px solid #fff;
+	background: #1e1e1e;
+	margin-bottom: 16px;
+}
+.igloo-select{
+	padding: 9px 38px;
+
+	@include lg{
+		padding: 3px 38px;
+	}
+}
+.igloo-select select{
+	font-family: $primary-font;
+	border-radius: 0;
+	background: transparent;
+	border: none;
+	color: #666;
+	font-size: 20px;
+}
+.igloo-select select option:first-child {
+	color: #666!important;
 }
 input[type="submit"]{
 	font-weight: 700;
@@ -49,6 +75,7 @@ input[type="submit"]{
 	text-transform: uppercase;
 	background: #000;
 	padding: 15px 48px;
+	border:none;
 	&:hover{
 		background: #00DEAD;
 	}
