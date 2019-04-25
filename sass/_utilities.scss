@@ -51,6 +51,14 @@
   }
 }
 
+.pt6{
+  padding-top: 144px;
+
+  @include md{
+    padding-top: 48px;
+  }
+}
+
 .spacer{
   height: 48px;
 
