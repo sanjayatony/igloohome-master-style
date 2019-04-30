@@ -12,6 +12,7 @@ a.btn, .btn{
 	@include sm{
 		display: block;
 		margin-bottom: 16px;
+		text-align: center;
 	}
 
 	&.btn-primary{
@@ -19,6 +20,14 @@ a.btn, .btn{
 	}
 	&.btn-secondary{
 		background: #159281;
+	}
+
+	&.btn-enterprise{
+		background: #083451;
+
+		&:hover{
+			background: #9EB5C4;
+		}
 	}
 	&.btn-small{
 		padding: 10px 24px;
@@ -76,7 +85,16 @@ input[type="submit"]{
 	background: #000;
 	padding: 15px 48px;
 	border:none;
+	margin-top: 0;
+	
 	&:hover{
 		background: #00DEAD;
+	}
+
+	@include sm{
+		display: block;
+		margin-bottom: 16px;
+		text-align: center;
+		width: 100%;
 	}
 }
