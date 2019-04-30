@@ -93,3 +93,35 @@
   left: 50%;
   transform: translatex(-50%);
 }
+
+.hide-on-tablet{
+  display: block;
+
+  @include md{
+    display: none!important;
+  }
+}
+
+.show-on-tablet{
+  display: none!important;
+
+  @media (max-width: 767px){
+    display: block!important;
+  }
+}
+
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+
+  iframe{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+  }
+}
