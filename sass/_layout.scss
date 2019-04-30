@@ -1,5 +1,9 @@
+html{
+  overflow-x: hidden;
+}
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 *,
 *:before,
@@ -43,25 +47,46 @@ body{
   &.fullwidth{
     max-width: 100%;
   }
-  &.collapse{
-    .row-fluid [class*="span"]{
-      margin-left: 0;
-    }
-    
+}
+
+.row{
+  &.collapse{    
     .span12{
       width: 100%;
     }
     .span6{
-      width: 50%
+      width: 50%;
+
+      @include md{
+        width: 100%;
+      }
     }
     .span4{
-      width: 33.333%
+      width: 33.333%;
+      @include md{
+        width: 100%;
+      }
     }
     .span3{
       width: 25%;
+      @include md{
+        width: 100%;
+      }
     }
     .span2{
       width: 20%;
+      @include md{
+        width: 100%;
+      }
+    }
+
+    .row.collapse{
+      padding-left: 0;
+      padding-right: 0;
     }
   }
+}
+
+.row-fluid .row.collapse [class*="span"]{
+  margin-left: 0;
 }

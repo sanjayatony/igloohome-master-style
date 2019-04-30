@@ -14,7 +14,9 @@
 
   &.sticky-header {
     position: fixed;
-    width: 100% !important;
+    top:0;
+    right: 0;
+    left: 0;
     background: transparent;
     z-index:100;
     transform: translateY(-100%);
@@ -117,6 +119,11 @@ img.logo-dark {
         }
 
         &:last-child a{
+          :hover{
+            span{
+              background-color: #00dead;
+            }
+          }
           span{
             background-color: $link-color;
             color: #fff;
