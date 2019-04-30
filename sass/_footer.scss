@@ -33,6 +33,10 @@
     margin: 0;
     list-style: none;
 
+    @include md{
+      margin-top: 32px;
+    }
+
     li{
       display: inline-block;
       margin-right: 48px;
