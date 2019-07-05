@@ -7,6 +7,18 @@
   left: 0;
   z-index: 554;
 
+  .header-text{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #9eb5c4;
+    margin-left: 20px;
+    transform: translateY(-50%);
+  }
+
   @include lg{
     padding: 2px 15px 0px;
 
