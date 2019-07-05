@@ -37,7 +37,8 @@ body{
   }
 }
 
-.container-fluid .row-fluid .row {
+.container-fluid .row-fluid .row,
+.row-fluid-wrapper .row-fluid .row {
   float: none;
   max-width: $max-width;
   margin: 0 auto;
@@ -47,6 +48,14 @@ body{
   &.fullwidth{
     max-width: 100%;
   }
+}
+
+.container-fluid .row-fluid .narrow {
+  float: none;
+  max-width: $narrow-width;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .row{
@@ -89,4 +98,41 @@ body{
 
 .row-fluid .row.collapse [class*="span"]{
   margin-left: 0;
+}
+
+
+.rss {
+  a.hs-rss-title {
+    @extend .h3;
+    display: block;
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .hs-rss-description a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: -9px;
+    font-weight: 700
+  }
+
+  .hs-rss-item {
+    margin: 0;
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+
+    @include md{
+      width: 100%;
+    }
+  }
+  .hs-rss-item-text:before {
+    content: "Related article";
+  }
+}
+.country-check{
+  select{
+    height: 50px;
+    font-size: 1rem;
+  }
 }
