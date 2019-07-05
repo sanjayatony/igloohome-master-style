@@ -8,6 +8,7 @@ a.btn, .btn{
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
+	-webkit-appearance: none;
 
 	@include sm{
 		display: block;
@@ -27,6 +28,15 @@ a.btn, .btn{
 
 		&:hover{
 			background: #9EB5C4;
+		}
+	}
+
+	&.btn-gradient{
+		background: linear-gradient(90deg,#94ffd4 0%,#00cce9 100%);
+		color: #fff;
+		
+		&:hover{
+			background: linear-gradient(90deg,#94ffd4 0%,#94ffd4 100%);
 		}
 	}
 	&.btn-small{
@@ -55,7 +65,7 @@ input[type="email"],
 	margin-bottom: 16px;
 }
 .igloo-select{
-	padding: 9px 38px;
+	padding: 4px 38px;
 
 	@include lg{
 		padding: 3px 38px;
@@ -68,9 +78,14 @@ input[type="email"],
 	border: none;
 	color: #666;
 	font-size: 20px;
+	-webkit-appearance: none;
 }
+
 .igloo-select select option:first-child {
 	color: #666!important;
+}
+select{
+	
 }
 input[type="submit"]{
 	font-weight: 700;
